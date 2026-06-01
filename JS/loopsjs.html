@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops in js</title>
+</head>
+<body>
+    <script>
+        // JavaScript are used to repeatedly execute a block of code until a specific condition is met
+        //for loop
+        let studentlist=["vikas","vinay","vivek","deepak","sneha"];
+        for(let i=0;i<studentlist.length;i++){
+            console.log(studentlist[i]);
+        }
+        //while
+
+        let x=0;
+        while(x<studentlist.length){
+            console.log(studentlist[x]);
+            x++
+        }
+        //for...of loop
+        //iterates over the values of the iterable objects (like arrays,strings,maps and sets).
+        for(let y of studentlist){
+            console.log(y);
+        }
+
+        let nitinresume=["nitin","age=19","btech","cseds2","9608798978"];
+        for (let i=0;i<nitinresume.length;i++){
+            console.log(nitinresume[i]);
+        }
+        for(let objkey in nitinresume){
+            console.log(nitinresume[objkeys]);
+        }
+
+    </script>
+    
+</body>
+</html>
